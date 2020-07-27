@@ -1,5 +1,4 @@
 class ArticlesController < ApplicationController
-<<<<<<< HEAD
     include ArticlesHelper
 
     #Homepage
@@ -9,6 +8,8 @@ class ArticlesController < ApplicationController
     #View specific article
     def show
         @article = Article.find(params[:id])
+        @comment = Comment.new
+        @comment.article_id = @article.id
     end
     #New article form
     def new
@@ -39,13 +40,4 @@ class ArticlesController < ApplicationController
         flash.notice = "Article '#{@article.title}' Updated!"
         redirect_to article_path(@article)
     end
-=======
-    def index
-        @articles = Article.all
-    end
-    
-    def show
-        @article = Article.find(params[:id])
-    end
->>>>>>> 4c02f2b3cd35c48751a7f46b54e5849a555e8a91
 end
