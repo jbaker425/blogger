@@ -10,4 +10,4 @@ Some basic info:
 
 * Database used: sqlite3
 
-* Homepage: ![Homepage](/app/assets/Homepage.JPG)
+* Homepage: ![Homepage](/app/assets/images/Homepage.JPG)
