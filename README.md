@@ -9,3 +9,5 @@ Some basic info:
 * System dependencies: x86_64-linux
 
 * Database used: sqlite3
+
+* Homepage: ![Homepage](/app/assets/Homepage.JPG)
